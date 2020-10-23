@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -16,14 +15,11 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:hint="Enter Anything"
-        tools:layout_editor_absoluteX="93dp"
-        tools:layout_editor_absoluteY="59dp" />
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/btnSubmitToast"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Show Toast"
-        tools:layout_editor_absoluteX="177dp"
-        tools:layout_editor_absoluteY="179dp" />
+        android:text="Show Toast" />
 </LinearLayout>
