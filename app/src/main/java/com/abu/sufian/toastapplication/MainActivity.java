@@ -28,6 +28,10 @@ public class MainActivity extends AppCompatActivity {
                 if(!TextUtils.isEmpty(text)){
                     Toast.makeText(MainActivity.this, text, Toast.LENGTH_SHORT).show();
                 }
+                else{
+                    edtToastText.requestFocus();
+                    edtToastText.setError("Empty");
+                }
             }
         });
 
